@@ -13,21 +13,45 @@
   <!-- Body er kun for det som skal synes på selve nettsiden -->
   <body>
     <header>
+      <p class="logo">JH</p>
       <nav>
-        <a href="">Hjem</a><a href="">Om meg</a><a href="">Prosjekter</a>
+        <a href="">Hjem</a>
+        <a href="">Om meg</a>
+        <a href="">Prosjekter</a>
       </nav>
     </header>
+
     <main>
-      <section>
-        <h1>Velkommen til min side!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-          eligendi beatae? Quo magni sed vero?
-        </p>
+      <section class="hero">
+        <!-- 'Hero section' har to barn div og img. Div-elementet har to barn som er h1 og p -->
+        <div class="heroText">
+          <h1>Velkommen til min side!</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eligendi beatae? Quo magni sed vero?</p>
+          <div class="heroTextCta">
+            <!-- Se på hvordan desse to elementene påvirker hverandre og fiks knappen -->
+            <p>Lorem ipsum dolor sit.</p>
+            <button>Finn mer her</button>
+          </div>
+        </div>
+        <img class="heroImg" src="photo1.jpg" alt="Blue blob thing">
       </section>
-      <section><h2>Om meg</h2></section>
-      <section><h2>Prosjekter</h2></section>
+
+      <section class="about">
+        <img class="aboutImg" src="photo1.jpg" alt="Blue blob thing">
+        <div class="aboutText">
+          <h2>Om meg</h2>
+          <p>Jeg heter Julie og er 27 år, og lærer å kode med HTML, CSS og JS gjennom et utvikler kurs.</p>
+          <p>På fritiden spiller jeg NMS - No Man Sky.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Prosjekter</h2>
+      </section>
     </main>
-    <footer><h3>Laget av Julie</h3></footer>
+
+    <footer>
+      <h3>Laget av Julie</h3>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,68 @@
+/* GLOBAL */
+img {
+    max-width: 100%;
+}
+
+section {
+    height: 100vh;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* 'Shorthand' metode */
+    border: 3px black solid;
+    /* 'Longhand' metode
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* MAIN */
+.hero {
+    display: flex;
+}
+
+.heroText, .heroImg {
+    width: 50%;
+}
+
+.heroText {
+    /* Alternativ 1: */
+    text-align: center;
+
+    /* Alternativ 2: */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroTextCta {
+    display: flex;
+}
+
+.about {
+    display: flex;
+}
+
+.aboutText, .aboutImg {
+    width: 50%;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
